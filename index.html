@@ -4,19 +4,18 @@
   </head>
   
   <body>
-    <h1>서울아이티고등학교 네트워크보안솔루션과</h1>
 	<script>
-	    var id = prompt('아이디를 입력해 주세요.');
-		if (id == 'kim') {
-			var password = prompt('비밀번호 입력해줘');
-	                if (password.match(/1{3,}/)) {
-				alert('인증되었습니다.');
-			}else {
-				alert('인증의 실패했습니다.');
-			}
-		}else {
-			alert('인증의 실패했습니다.');
-		}		  
+		function sun(a, b)
+		{
+			var c = a + b;
+			
+			return c;
+		}
+		document.write('<p>합계 : ' +sum2(2,5)+'<p>');
+	        var names = ['이순신','강감찬','을지문덕','맥아더'];
+		
+	        names.forEach(function (name)
+		document.write('<p>'+name '<p>');		  
 	</script>
   </body>
 </html>
